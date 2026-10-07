@@ -24,13 +24,32 @@ export default function Experience() {
                 </ul>
             </div>
 
-            <div>
+            <div className="mb-10">
+                <h2 className="text-xl font-semibold">Teaching</h2>
+                <p className="text-gray-500 text-sm mb-2">REVA University, Bengaluru</p>
+                <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                    <li>Subjects: Principles of AI; Data Visualization Techniques</li>
+                </ul>
+            </div>
+
+            <div className="mb-10">
                 <h2 className="text-xl font-semibold">Data Science Engineer Intern</h2>
                 <p className="text-gray-500 text-sm mb-2">HopingMinds, Mohali · 2023</p>
                 <ul className="text-gray-700 space-y-2 list-disc pl-5">
                     <li>
                         Six-month internship in applied data science, contributing to
                         model development and data pipeline workflows.
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2 className="text-xl font-semibold">Python Developer Intern</h2>
+                <p className="text-gray-500 text-sm mb-2">Vedanta, Rajpura · 2021</p>
+                <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                    <li>
+                        Four-month internship working with Python, NumPy, and Pandas for
+                        data processing, and Tkinter for building desktop GUI applications.
                     </li>
                 </ul>
             </div>

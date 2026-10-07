@@ -6,19 +6,28 @@ export default function About() {
             <p className="text-gray-700 mb-6">
                 AI/ML engineer and full-stack developer with a research background in
                 deep learning for biomedical image segmentation. M.Tech in Data Science
-                & Engineering from NIT Jalandhar, currently open to freelance, research,
-                and full-time opportunities across AI/ML, LLM engineering, and web
-                development.
+                & Engineering from NIT Jalandhar (thesis defended August 2026), currently
+                open to freelance, research, and full-time opportunities across AI/ML,
+                LLM engineering, and web development.
             </p>
 
             <h2 className="text-xl font-semibold mb-2">Education</h2>
             <ul className="text-gray-700 mb-6 space-y-1">
                 <li>M.Tech, Data Science & Engineering — NIT Jalandhar (2024–2026)</li>
+                <li className="text-gray-500 text-sm pl-4">
+                    Thesis: "Application of Instance vs. Amodal Deep Models for Mitochondria Segmentation Using Simulated and Real Confocal Microscopy Data"
+                </li>
                 <li>B.Tech, Computer Science & Engineering — Punjabi University, Patiala (2019–2023), First with Distinction</li>
             </ul>
 
             <h2 className="text-xl font-semibold mb-2">Qualifications</h2>
             <ul className="text-gray-700 mb-6 space-y-1">
+                <li>
+                    UGC NET — Qualified for Assistant Professor & Ph.D. Admission, June 2026 (89.53 percentile){" "}
+                    <span className="text-gray-500 text-sm">
+                        (India's national qualifying exam for university faculty eligibility and government doctoral fellowships)
+                    </span>
+                </li>
                 <li>
                     GATE 2026 — Qualified, CS/IT{" "}
                     <span className="text-gray-500 text-sm">
@@ -30,7 +39,7 @@ export default function About() {
 
             <h2 className="text-xl font-semibold mb-2">Skills</h2>
             <div className="flex flex-wrap gap-2">
-                {["Python", "PyTorch", "HuggingFace Transformers", "Detectron2", "TensorFlow", "SQL", "Next.js", "React", "Supabase"].map((skill) => (
+                {["Python", "PyTorch", "HuggingFace Transformers", "Detectron2", "TensorFlow", "SQL", "Next.js", "React", "Node.js", "Supabase"].map((skill) => (
                     <span key={skill} className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700">
                         {skill}
                     </span>

@@ -42,9 +42,14 @@ export default function AuthStatus() {
     )
   }
 
-  return (
-    <button onClick={handleLogout} className="hover:text-gray-500">
-      Logout
-    </button>
+    return (
+    <div className="flex items-center gap-4">
+      <a href="/dashboard" className="hover:text-gray-500">
+        Dashboard
+      </a>
+      <button onClick={handleLogout} className="hover:text-gray-500">
+        Logout
+      </button>
+    </div>
   )
 }
